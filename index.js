@@ -69,6 +69,11 @@ module.exports = class storage
         this.context=config.context
         this.fileContex=config.fileContex
         this.config=config.statics 
+        
+		this.bootstrap=require('./bootstrap.js')
+		this.enums=require('./struct.js') 
+		this.tempConfig=require('./config.js')
+        
         if(this.config.memory)
         { 
             //this.memory=new memory(this.config.memory.address,this.config.memory.port)

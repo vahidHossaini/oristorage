@@ -6,7 +6,11 @@ module.exports = class staticAuthzConfig
     }
     getPackages()
     {
-       return []
+       return [
+       {name:"binary-file",version:"0.2.1"},
+           {name:"uuid",version:"3.3.3"},
+           {name:"redis",version:"2.8.0"},
+       ]
     } 
     getVersionedPackages()
     { 

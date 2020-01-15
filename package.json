@@ -1,6 +1,6 @@
 {
   "name": "oristorage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "origamicore storage",
   "main": "index.js",
   "scripts": {
